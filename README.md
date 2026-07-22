@@ -4,7 +4,7 @@ This repository contains a small simulation to demonstrate collider bias in caus
 
 ## Files
 
-- `DAG.py`: Simulates independent variables `talent` and `beauty`, creates a collider (`is_celebrity`), and compares regression estimates with and without conditioning on the collider.
+- `explore_collider.py`: Simulates independent variables `talent` and `beauty`, creates a collider (`is_celebrity`), and compares regression estimates with and without conditioning on the collider.
 - `requirements.txt`: Lists the Python dependencies needed to run the script.
 
 ## Setup
