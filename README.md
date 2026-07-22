@@ -61,6 +61,18 @@ With the environment active, install packages from `requirements.txt`:
 python -m pip install -r requirements.txt
 ```
 
+### Launch the Jupyter notebook
+
+After dependencies are installed, start Jupyter Notebook from this folder:
+
+```powershell
+python -m notebook
+```
+
+Then open `explore_collider.ipynb` in the browser.
+
+If you are using VS Code, you can also open `explore_collider.ipynb` directly and use the built-in notebook interface.
+
 ### Use the environment in VS Code
 
 VS Code can automatically use the project environment if you select the interpreter from `.venv`.
