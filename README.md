@@ -1,6 +1,6 @@
-# Causal Inference Demo: Collider Bias
+# Causal Inference Examples and Learning Notes
 
-This repository contains a small simulation to demonstrate collider bias in causal inference.
+This repository contains causal inference examples and learning notes based on Scott Cunningham's book *Causal Inference: The Mixtape*, including collider bias simulation and a notebook exploring confounding and the backdoor criterion.
 
 ## Files
 
@@ -144,11 +144,11 @@ This demonstrates how conditioning on a collider can induce a spurious associati
 
 ## Acknowledgements
 
-This project is inspired by ideas from Scott Cunningham's book *Causal Inference: The Mixtape*. The notebook examples and causal DAG discussion aim to reflect scholarly standards in causal inference education.
+This repository is a learning note for Scott Cunningham's book *Causal Inference: The Mixtape* (Yale University Press, 2021). The notebook examples and causal DAG discussion are intended to illustrate key causal inference concepts in a clear, example-driven way.
 
 ## Example output
 
-When you run `python DAG.py`, you should see output like:
+When you run `python explore_collider.py`, you should see output like:
 
 ```text
 Analysis 1: General Population (Unconditioned)
