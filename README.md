@@ -110,7 +110,7 @@ That makes VS Code automatically pick the right environment for this project.
 ## Run
 
 ```bash
-python DAG.py
+python explore_collider.py
 ```
 
 ## Using GitHub Desktop
