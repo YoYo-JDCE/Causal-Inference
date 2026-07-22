@@ -5,6 +5,7 @@ This repository contains a small simulation to demonstrate collider bias in caus
 ## Files
 
 - `explore_collider.py`: Simulates independent variables `talent` and `beauty`, creates a collider (`is_celebrity`), and compares regression estimates with and without conditioning on the collider.
+- `Confouding and the Backdoor Criterion.ipynb`: A Jupyter notebook that explores confounding, the backdoor criterion, and causal DAG visualizations such as `Education <- Ability -> Earnings`.
 - `requirements.txt`: Lists the Python dependencies needed to run the script.
 
 ## Setup
@@ -140,6 +141,10 @@ Note: GitHub Desktop may open your browser to authenticate. Make sure you're sig
 - `Analysis 2`: Regression of `talent` on `beauty` among celebrities only, which conditions on the collider.
 
 This demonstrates how conditioning on a collider can induce a spurious association between otherwise independent variables.
+
+## Acknowledgements
+
+This project is inspired by ideas from Scott Cunningham's book *Causal Inference: The Mixtape*. The notebook examples and causal DAG discussion aim to reflect scholarly standards in causal inference education.
 
 ## Example output
 
