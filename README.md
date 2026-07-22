@@ -71,6 +71,8 @@ python -m notebook
 
 Then open `explore_collider.ipynb` in the browser.
 
+In the notebook, run the first code cell to import libraries, then run the cells that simulate data and display the regression results and plots.
+
 If you are using VS Code, you can also open `explore_collider.ipynb` directly and use the built-in notebook interface.
 
 ### Use the environment in VS Code
