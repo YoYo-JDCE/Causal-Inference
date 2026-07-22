@@ -75,6 +75,15 @@ In the notebook, run the first code cell to import libraries, then run the cells
 
 If you are using VS Code, you can also open `explore_collider.ipynb` directly and use the built-in notebook interface.
 
+### Notebook troubleshooting
+
+If Jupyter does not start or the notebook does not run:
+
+- Make sure the virtual environment is activated: `.\.venv\Scripts\activate`
+- Make sure dependencies are installed: `python -m pip install -r requirements.txt`
+- Close and reopen VS Code if the notebook kernel is not detected.
+- If you still see errors, run the notebook from the command line and check the output for the missing package or path issue.
+
 ### Use the environment in VS Code
 
 VS Code can automatically use the project environment if you select the interpreter from `.venv`.
